@@ -1,10 +1,28 @@
 {
   "type" : "outpostcrewmaster",
   "baseType" : "outpostcivilian",
+  
+  "npcname" : "placeholder",
+  "identity" : {
+    "imagePath" : "human",
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "1"
+  },
+  
+  "persistent" : true,
 
   "scriptConfig" : {
     "offeredQuests" : [ ],
     "turnInQuests" : [ ],
+	
+	"reactions" : {
+		  "spontaneous" : [
+		  ]
+		},
+	"personalities" : [
+		[1.0, { "personality" : "ambitious", "reactions" : {} }]
+	],
 
     "dialog" : {
       "converse" : {
