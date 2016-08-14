@@ -1,0 +1,40 @@
+Original Idea: - Crew Console
+It will be an object found at the outpost, but only "unlockable" after the Hylotl mission. You will be given a quest to gather some materials and, after that, it will spawn a new npc at the outpost, the "Crew Master", and his project, the Crew Console, that he started on Earth will be working. It will be able to do 2 separate things : manage the Crew members individual outfits and searching new crew members {you actually create them from A to Z, giving also their names and jobs}. You will have to pay this service, and it will be calculated by he's/her's job.
+
+
+
+NPC: Crew Master
+	Name:
+	Outfit:
+		Head:
+		Body:
+		Legs:
+		Back:
+	Quest giver:
+		Location in Outpost:
+			
+		Introduction quest line: 
+			I've heard quite a bit about you in from those around the outpost. Listen I was working on a project back on earth called ^orange;Crew Console^reset; I need some items to get my prototype to work, I was wondering if you can help me out.
+		Completed quest line: 
+			Haha! Works better than I originally thought. To keep it simple, you can fill out a form and my device will find that person for you. Wonderful little gadget isn't it?
+		Requirements to gather:
+			
+		Is device craftable, or purchaseable after quest. If so where?
+			
+	Dialog Lines?
+		greeting:
+		greeting:
+		departing:
+		departing:
+	Roaming or stationary?
+Object: Crew Console
+	Name: Crew Console
+	Object Assets: /objects/crewconsole/ (icon and placed world object) , and /interface/crewconsole
+	Object Config: /interface/crewconsole/crewconsole.config , and /objects/crewconsole/*.animations *.frames *.object
+	Object functions: /scripts/crewconsole.lua
+	
+Saving Crew member clothing.
+	
+The Bulk of the difficulty will come from the selection and assignment of clothing to the crew member while 'graduating' them.
+
+Create-a-friend, Wardrobe Interface have selections of costumes, storing the assignment of the style of each crew members needs to be done in the profile.

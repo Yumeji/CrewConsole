@@ -1,0 +1,93 @@
+{
+  "type" : "outpostcrewmaster",
+  "baseType" : "outpostcivilian",
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "If you want to have your own Crew by spending some pixels, use my Crew Console!"
+          ]
+        },
+        "avian" : {
+          "default" : [
+            "If you want to have your own Crew by spending some pixels, use my Crew Console!"
+          ],
+          "avian" : [
+            "You know, instead of flying around searching someone to join your crew without success, you can use my Crew Console!"
+          ]
+        },
+		"apex" : {
+          "default" : [
+            "If you want to have your own Crew by spending some pixels, use my Crew Console!"
+          ],
+          "apex" : [
+            "You escaped Big Ape? I am sure you will be able to find people who have the same ideals as you using my Crew Console!"
+          ]
+        },
+		"floran" : {
+          "default" : [
+            "If you want to have your own Crew by spending some pixels, use my Crew Console!"
+          ],
+          "floran" : [
+            "You want to defeat Ixodoom in the easiest way? Use my Crew Console to recruit some hunters!"
+          ]
+        },
+		"glitch" : {
+          "default" : [
+            "If you want to have your own Crew by spending some pixels, use my Crew Console!"
+          ],
+          "glitch" : [
+            "You are a knight deep in your circuits, I know it... So come at my Crew Console to recruit your Knights of the Round Table!"
+          ]
+        },
+		"glitch" : {
+          "default" : [
+            "If you want to have your own Crew by spending some pixels, use my Crew Console!"
+          ],
+          "glitch" : [
+            "You are a knight deep in your circuits, I know it... So come at my Crew Console to recruit your Knights of the Round Table!"
+          ]
+        },
+		"human" : {
+          "default" : [
+            "If you want to have your own Crew by spending some pixels, use my Crew Console!"
+          ],
+          "humain" : [
+            "You, a Human, just like me, managed to escape the Earth... If you don't want to feel lonely after that, come recruit people at my Crew Console!"
+		},
+		"hylotl" : {
+          "default" : [
+            "If you want to have your own Crew by spending some pixels, use my Crew Console!"
+          ],
+          "hylotl" : [
+            "You love beauty, do you? So come recruit some of the most beautiful Crew Members using my Crew Console!"
+		},
+		"novakid" : {
+          "default" : [
+            "If you want to have your own Crew by spending some pixels, use my Crew Console!"
+          ],
+          "novakid" : [
+            "You... you are a Novakid right? It's pretty uncommon, but with my Crew Console, it's almost common!"
+          ]
+        },
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "pilothead" } ],
+            "chest" : [ { "name" : "coolchest"} ],
+            "legs" : [ { "name" : "piratelegs"} ]
+          }
+        ] ]
+    ]
+  }
+}
