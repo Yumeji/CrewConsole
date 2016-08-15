@@ -1,0 +1,10 @@
+{
+  "version" : "0.0.1",
+  "friendlyName" : "Crew Console ",
+  "link" : "",
+  "steamContentId" : "",
+  "name" : "CrewConsole",
+  "includes" : [],
+  "description" : "Adds new customization options, make your own crew members from start to finish.",
+  "author" : "Yumeji, CrypticXenon"
+}

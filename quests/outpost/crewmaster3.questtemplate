@@ -1,8 +1,8 @@
 {
-  "id" : "crewmaster_unlock",
+  "id" : "crewmaster3",
   "mainQuest" : true,
   "title" : "Crew Master",
-  "prerequisites" : [ "hylotl_mission2" ],
+  "prerequisites" : [ "crewmaster2" ],
   "text" : "I've heard quite a bit about you in from those around the outpost. Listen I was working on a project back on earth called ^orange;Crew Console^reset; I need some items to get my prototype to work, I was wondering if you can help me out.",
   "completionText" : "Haha! Works better than I originally thought. To keep it simple, you can fill out a form and my device will find that person for you. Wonderful little gadget isn't it?",
 

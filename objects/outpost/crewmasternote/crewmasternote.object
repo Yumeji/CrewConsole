@@ -1,0 +1,34 @@
+{
+  "objectName" : "crewmasternote",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "description" : "A Note",
+  "shortdescription" : "Note",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 20,
+
+  "apexDescription" : "Someone left a message.",
+  "avianDescription" : "Someone left a message.",
+  "floranDescription" : "Sssomeone left a messsage.",
+  "glitchDescription" : "Neutral. Someone left a message.",
+  "humanDescription" : "Someone left a message.",
+  "hylotlDescription" : "Someone left a message.",
+  "novakidDescription" : "Someone left a message.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "crewmasternote.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

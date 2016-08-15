@@ -13,8 +13,8 @@
   "persistent" : true,
 
   "scriptConfig" : {
-    "offeredQuests" : [ ],
-    "turnInQuests" : [ ],
+    "offeredQuests" : [ "crewmaster2", "crewmaster3" ],
+    "turnInQuests" : [ "crewmaster2", "crewmaster3" ],
 	
 	"reactions" : {
 		  "spontaneous" : [

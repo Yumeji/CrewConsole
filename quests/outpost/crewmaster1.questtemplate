@@ -1,0 +1,47 @@
+{
+  "id" : "crewmaster1",
+  "mainQuest" : false,
+  "title" : "Crew Master",
+  "prerequisites" : [ "hylotl_mission2" ],
+  "text" : "I see you're making a name for yourself. I might know someone that could help you, go search ^orange;The Outpost^reset; and talk to him.",
+  "completionText" : "I sent him a message to drop by ^orange;The Outpost^reset;, he should of arrived by now. He's got something to say.",
+
+  "moneyRange" : [150, 150],
+  "rewards" : [
+	[ [ "meatpie", 1 ] ]
+  ],
+  
+  "canBeAbandoned" : false,
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questGiver"
+    },
+
+    "requireTurnIn" : true,
+	
+	"descriptions" : {
+      "findClues" : "Find the man ^orange;Esther^reset; was talking about. If he's not there he left a note on the wall.",
+      "turnIn" : "Return to ^orange;Esther^reset; at the ^orange;Ark^reset;"
+    },
+    "turnInEntityUid" : "estheroutpost",
+	
+	"targetValue" : 10,
+    "objectValues" : {
+      "2stopshop" : 10,
+    },
+	
+    "radioMessages" : {
+      "complete" : {
+        "messageId" : "outpost_c",
+        "type" : "quest",
+        "unique" : false,
+        "senderName" : "Esther",
+        "text" : "He wasn't there? ^#71f2f6;Come on back^white; and let's talk.",
+        "portraitImage" : "/interface/chatbubbles/esthertalk.png:<frame>"
+      }
+	}
+  }
+}
