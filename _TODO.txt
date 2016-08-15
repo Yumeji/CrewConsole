@@ -1,30 +1,31 @@
-Original Idea: - Crew Console
-It will be an object found at the outpost, but only "unlockable" after the Hylotl mission. You will be given a quest to gather some materials and, after that, it will spawn a new npc at the outpost, the "Crew Master", and his project, the Crew Console, that he started on Earth will be working. It will be able to do 2 separate things : manage the Crew members individual outfits and searching new crew members {you actually create them from A to Z, giving also their names and jobs}. You will have to pay this service, and it will be calculated by he's/her's job.
+Crew Master
+	Name
+	Location
+Outpost
+	Location of room
+	Design of room
+Objects
+	Object files
+		CrewConsole
+	Frame files
+		CrewConsole
+	Animation files
+		CrewConsole
+Interface
+	Config files
+		CrewConsole/AI
+			(Interaction of management)
+Codex
+	Image Files
+	Codex
+Quests
+	Cleanup the Quests (after objects been made)
+Scripts
+	GUI of CrewConsole
 
+Following for only after former is completed.
 
+Clothing Selection
+	How?
+Saving the clothing to player file.
 
-NPC: Crew Master
-	Name:
-	Outfit - Done
-	Quest giver:
-		Location in Outpost:
-			
-		Requirements to gather:
-			
-		Is device craftable, or purchaseable after quest. If so where?
-			
-	Dialog Lines? - Done (mostly)
-Object:
-	Interface
-	NPC Creation
-	NPC Customization
-
-	
-Long Term
-	Customization of clothing.
-	
-	
-For the first one, the one that Esther wants you to scan the paper, it may just be "Hey, one of my old friend let a note on the wall of his room, could you check it?" or something like that(edited)
-For the one after, just something like "To repair and power my project that I had back on Earth, I'll need -need to think about what items it'll need-. Could you bring me that? Thanks."
-And for the last one we need to finish the interface and all that kind of stuff before thinking about that
-But sorry, I won't continue tonight, my eyes are burning, sorry {I've a bad eye sight, 2,25/10 and 2,5/10, standing behind a computer too late the night is not good for me}
