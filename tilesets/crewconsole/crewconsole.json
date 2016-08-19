@@ -1,0 +1,41 @@
+{ "columns":0,
+ "margin":0,
+ "name":"crewconsole",
+ "spacing":0,
+ "tilecount":1,
+ "tileheight":24,
+ "tileproperties":
+    {
+     "0":
+        {
+         "\/\/description":"Recruit your ever wanted crew here!",
+         "\/\/name":"crewconsole",
+         "\/\/shortdescription":"Crew Console",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"crewconsole",
+         "tilesetDirection":"right"
+        }
+    },
+ "tilepropertytypes":
+    {
+     "0":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string",
+         "tilesetDirection":"string"
+        }
+    },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/..\/tiled\/crewconsole\/crewconsole.png"
+        }
+    },
+ "tilewidth":24
+}

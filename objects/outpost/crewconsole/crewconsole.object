@@ -4,23 +4,21 @@
   "printable" : false,
   "rarity" : "Common",
 
-  "interactAction" : "OpenAiInterface",
-
   "category" : "decorative",
   "lightColor" : [240, 160, 75],
   "lightPosition" : [-1, 0],
 
   "description" : "Recruit your ever wanted crew here!",
   "shortdescription" : "Crew Console",
-  "race" : "human",
+  "race" : "generic",
 
-  "apexDescription" : "I can talk to SAIL through this console.",
-  "avianDescription" : "I can use this station to talk to SAIL.",
-  "floranDescription" : "Floran use thisss magic panel to talk to SAIL!",
-  "glitchDescription" : "Happy. This station allows me to talk to SAIL.",
-  "humanDescription" : "This station allows me to communicate with SAIL.",
-  "hylotlDescription" : "This console allows me to communicate with SAIL.",
-  "novakidDescription" : "This here station let's me talk with SAIL.",
+  "apexDescription" : "I can recruit crew members through this console.",
+  "avianDescription" : "I can use this station to recruit crew members.",
+  "floranDescription" : "Floran use thisss magic console to recruit crew membersss!",
+  "glitchDescription" : "Happy. This station allows me to recruit crew members.",
+  "humanDescription" : "This station allows me to recruit crew members.",
+  "hylotlDescription" : "This console allows me to recruit crew members.",
+  "novakidDescription" : "This here station let's me recruit some crew members.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -34,8 +32,6 @@
       "anchors" : [ "background" ]
 
     }
-  ],
-  "animation" : "/objects/ship/techstation.animation",
   ],
   "scriptDelta" : 20,
   "spawnOffset" : [2, -1],
